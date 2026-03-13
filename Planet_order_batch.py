@@ -8,7 +8,7 @@ import time
 logging.basicConfig(level=logging.INFO)
 
 # Planet API key and endpoint
-planet_api_key = 'PLAK252a4efee3ca4e48932245f88bcdaf03'
+planet_api_key = 
 API_ORDER_ENDPOINT = 'https://api.planet.com/compute/ops/orders/v2'
 headers = {
     'Authorization': f'api-key {planet_api_key}',
@@ -121,3 +121,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
